@@ -1,0 +1,21 @@
+{
+  "name": "akshu-env-guard",
+  "version": "1.0.0",
+  "description": "A lightweight Node.js environment variable validator",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "nodejs",
+    "environment",
+    "validation",
+    "backend"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
