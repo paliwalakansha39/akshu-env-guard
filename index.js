@@ -1,4 +1,15 @@
 
+class MissingEnvError extends Error {
+    constructor(missingKeys) {
+        super(
+            `Missing required environment variables: ${missingKeys.join(", ")}`
+        );
+
+        this.name = "MissingEnvError";
+        this.missingKeys = missingKeys;
+    }
+}
+
 function checkEnv(requiredKeys, env = process.env) {
     if (!Array.isArray(requiredKeys)) {
         throw new TypeError("requiredKeys must be an array");
