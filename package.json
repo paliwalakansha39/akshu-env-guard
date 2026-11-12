@@ -1,8 +1,13 @@
 {
   "name": "akshu-env-guard",
   "version": "1.0.0",
-  "description": "A lightweight Node.js environment variable validator",
+  "description": "A lightweight, zero-dependency Node.js environment variable validator",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
   "type": "commonjs",
   "scripts": {
     "test": "node --test"
@@ -11,11 +16,20 @@
     "nodejs",
     "environment",
     "validation",
-    "backend"
+    "backend",
+    "env-validator"
   ],
-  "author": "Your Name",
+  "author": "Akansha Paliwal",
   "license": "MIT",
   "engines": {
     "node": ">=18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paliwalakansha39/akshu-env-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paliwalakansha39/akshu-env-guard/issues"
+  },
+  "homepage": "https://github.com/paliwalakansha39/akshu-env-guard#readme"
 }
