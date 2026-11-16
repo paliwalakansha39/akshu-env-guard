@@ -194,3 +194,9 @@ Contributions are welcome!
 ## License
 
 This project is licensed under the MIT License.
+
+
+### Requirements
+
+- Node.js 18 or higher
+- npm
